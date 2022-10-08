@@ -19,5 +19,4 @@ app.use("/api/v1", order);
 
 //Middleware for Errors
 app.use(errorMiddleware);
-
 export default app;
